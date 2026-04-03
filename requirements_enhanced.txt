@@ -1,0 +1,62 @@
+# Enhanced Hoax Call Detection Pipeline Requirements
+
+# Core ML libraries
+scikit-learn>=1.3.0
+numpy>=1.21.0
+pandas>=1.5.0
+
+# Deep learning and embeddings
+torch>=2.0.0
+transformers>=4.30.0
+sentence-transformers>=2.7.0
+
+# Clustering and dimensionality reduction
+hdbscan>=0.8.29
+umap-learn>=0.5.3
+
+# Imbalanced learning
+imbalanced-learn>=0.11.0
+
+# Visualization
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Text processing
+langdetect>=1.0.9
+nltk>=3.8
+spacy>=3.4.0
+
+# Model interpretability
+shap>=0.42.0
+lime>=0.2.0.1
+
+# Keyword extraction (required for main3.py functionality)
+keybert>=0.7.0
+
+# Topic modeling (required for main3.py functionality)
+gensim>=4.2.0
+
+# Configuration management
+pyyaml>=6.0
+dataclasses-json>=0.5.9
+
+# Utilities
+joblib>=1.2.0
+tqdm>=4.64.0
+
+# Optional: Advanced synthetic data generation
+# sdv>=1.0.0  # Uncomment if you want CTGAN support
+
+# Optional: Audio processing (if working with audio files)
+# librosa>=0.9.0
+# soundfile>=0.11.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=22.0.0
+flake8>=5.0.0
+
+# Jupyter notebook support (optional)
+jupyter>=1.0.0
+ipywidgets>=8.0.0
